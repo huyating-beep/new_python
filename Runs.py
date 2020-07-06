@@ -3,10 +3,10 @@
 # @author: hyt
 # @contact: 2621408918@qq.com
 # 导入方法
-import os,sys
-dir=os.getcwd()
-print("hhhhhhhhh:",dir)
-sys.path.append(dir)
+# import os,sys
+# dir=os.getcwd()
+# print("hhhhhhhhh:",dir)
+# sys.path.append(dir)
 
 from httputils import http_requests
 from R_W_excels import read_data
