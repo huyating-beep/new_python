@@ -3,9 +3,9 @@
 # @author: hyt
 # @contact: 2621408918@qq.com
 # 导入方法
-# import os,sys
+import os,sys
 # dir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# sys.path.append(dir)
+sys.path.append(“/Users/huyating/.jenkins/workspace/new_python_run”)
 
 from python_test.httputils import http_requests
 from python_test.R_W_excels import read_data
