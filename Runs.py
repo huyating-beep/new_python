@@ -5,7 +5,7 @@
 # 导入方法
 import os,sys
 # dir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(“/Users/huyating/.jenkins/workspace/new_python_run”)
+sys.path.append(“\Users\huyating\.jenkins\workspace\new_python_run”)
 
 from python_test.httputils import http_requests
 from python_test.R_W_excels import read_data
