@@ -8,9 +8,9 @@ dir=os.getcwd()
 print("hhhhhhhhh:",dir)
 sys.path.append(dir)
 
-from python_test.httputils import http_requests
-from python_test.R_W_excels import read_data
-from python_test.R_W_excels import wite_data
+from httputils import http_requests
+from R_W_excels import read_data
+from R_W_excels import wite_data
 
 
 
