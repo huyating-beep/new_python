@@ -3,9 +3,9 @@
 # @author: hyt
 # @contact: 2621408918@qq.com
 # 导入方法
-import os,sys
-dir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(dir)
+# import os,sys
+# dir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# sys.path.append(dir)
 
 from python_test.httputils import http_requests
 from python_test.R_W_excels import read_data
